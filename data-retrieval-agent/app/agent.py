@@ -15,6 +15,7 @@
 # mypy: disable-error-code="arg-type"
 import os
 
+import google.auth
 import google
 import vertexai
 from google.adk.agents import Agent
