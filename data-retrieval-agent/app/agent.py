@@ -13,6 +13,7 @@
 # limitations under the License.
 
 # mypy: disable-error-code="arg-type"
+
 import os
 
 import google.auth
@@ -38,7 +39,6 @@ vertexai.init(project=project_id, location=LOCATION)
 embedding = VertexAIEmbeddings(
     project=project_id, location=LOCATION, model_name=EMBEDDING_MODEL
 )
-
 
 vector_search_index = os.getenv(
     "VECTOR_SEARCH_INDEX", "data-retrieval-agent-vector-search"
