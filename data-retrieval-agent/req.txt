@@ -1,2 +1,5 @@
 langchain_google_community
 langchain_google_vertexai
+google-adk
+google.cloud
+google-auth
